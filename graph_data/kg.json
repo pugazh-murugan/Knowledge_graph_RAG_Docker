@@ -1,0 +1,2213 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "name": "Next.js",
+      "type": "Technology",
+      "description": "A React framework for server-side rendering and static site generation.",
+      "id": "next.js"
+    },
+    {
+      "name": "Tailwind CSS",
+      "type": "Technology",
+      "description": "A utility-first CSS framework for styling.",
+      "id": "tailwind css"
+    },
+    {
+      "name": "Headless UI",
+      "type": "Technology",
+      "description": "A set of completely unstyled, fully accessible UI components.",
+      "id": "headless ui"
+    },
+    {
+      "name": "Radix UI",
+      "type": "Technology",
+      "description": "A set of low-level UI primitives for building accessible design systems.",
+      "id": "radix ui"
+    },
+    {
+      "name": "React Query",
+      "type": "Technology",
+      "description": "A data-fetching library for React applications.",
+      "id": "react query"
+    },
+    {
+      "name": "Zustand",
+      "type": "Technology",
+      "description": "A small, fast state-management solution for React.",
+      "id": "zustand"
+    },
+    {
+      "name": "Recoil",
+      "type": "Technology",
+      "description": "A state management library for React.",
+      "id": "recoil"
+    },
+    {
+      "name": "Jotai",
+      "type": "Technology",
+      "description": "A primitive and flexible state management library for React.",
+      "id": "jotai"
+    },
+    {
+      "name": "HLS.js",
+      "type": "Technology",
+      "description": "A JavaScript library for playing HLS (HTTP Live Streaming) in browsers.",
+      "id": "hls.js"
+    },
+    {
+      "name": "HTML5 Audio",
+      "type": "Technology",
+      "description": "A standard for playing audio in web browsers.",
+      "id": "html5 audio"
+    },
+    {
+      "name": "Web Audio API",
+      "type": "Technology",
+      "description": "An API for processing and synthesizing audio in web applications.",
+      "id": "web audio api"
+    },
+    {
+      "name": "OAuth2",
+      "type": "Technology",
+      "description": "An authorization framework for token-based authentication.",
+      "id": "oauth2"
+    },
+    {
+      "name": "OIDC",
+      "type": "Technology",
+      "description": "OpenID Connect, an authentication layer on top of OAuth2.",
+      "id": "oidc"
+    },
+    {
+      "name": "PWA",
+      "type": "Feature",
+      "description": "Progressive Web App features for offline capabilities.",
+      "id": "pwa"
+    },
+    {
+      "name": "Node.js",
+      "type": "Technology",
+      "description": "A JavaScript runtime built on Chrome's V8 engine.",
+      "id": "node.js"
+    },
+    {
+      "name": "TypeScript",
+      "type": "Technology",
+      "description": "A superset of JavaScript that adds static types.",
+      "id": "typescript"
+    },
+    {
+      "name": "NestJS",
+      "type": "Technology",
+      "description": "A progressive Node.js framework for building efficient server-side applications.",
+      "id": "nestjs"
+    },
+    {
+      "name": "REST",
+      "type": "Technology",
+      "description": "An architectural style for designing networked applications.",
+      "id": "rest"
+    },
+    {
+      "name": "gRPC",
+      "type": "Technology",
+      "description": "A high-performance RPC framework.",
+      "id": "grpc"
+    },
+    {
+      "name": "Kafka",
+      "type": "Technology",
+      "description": "A distributed event streaming platform.",
+      "id": "kafka"
+    },
+    {
+      "name": "NATS",
+      "type": "Technology",
+      "description": "A lightweight messaging system for cloud-native applications.",
+      "id": "nats"
+    },
+    {
+      "name": "RabbitMQ",
+      "type": "Technology",
+      "description": "An open-source message broker software.",
+      "id": "rabbitmq"
+    },
+    {
+      "name": "API Gateway",
+      "type": "Feature",
+      "description": "A server that acts as an API front-end.",
+      "id": "api gateway"
+    },
+    {
+      "name": "Nginx",
+      "type": "Technology",
+      "description": "A high-performance web server and reverse proxy.",
+      "id": "nginx"
+    },
+    {
+      "name": "Envoy",
+      "type": "Technology",
+      "description": "An open-source edge and service proxy.",
+      "id": "envoy"
+    },
+    {
+      "name": "Kong",
+      "type": "Technology",
+      "description": "An open-source API gateway and microservices management layer.",
+      "id": "kong"
+    },
+    {
+      "name": "PostgreSQL",
+      "type": "Database",
+      "description": "An open-source relational database management system.",
+      "id": "postgresql"
+    },
+    {
+      "name": "Redis",
+      "type": "Database",
+      "description": "An in-memory data structure store used as a database, cache, and message broker.",
+      "id": "redis"
+    },
+    {
+      "name": "Elasticsearch/OpenSearch",
+      "type": "Technology",
+      "description": "A search engine for full-text search and autocomplete.",
+      "id": "elasticsearch/opensearch"
+    },
+    {
+      "name": "ClickHouse",
+      "type": "Database",
+      "description": "A columnar database management system for analytics events.",
+      "id": "clickhouse"
+    },
+    {
+      "name": "S3-compatible object storage",
+      "type": "Technology",
+      "description": "Storage solution for audio and images.",
+      "id": "s3-compatible object storage"
+    },
+    {
+      "name": "CDN (CloudFront/Fastly/Cloudflare)",
+      "type": "Service",
+      "description": "Content Delivery Network for asset and audio delivery.",
+      "id": "cdn (cloudfront/fastly/cloudflare)"
+    },
+    {
+      "name": "Docker",
+      "type": "Technology",
+      "description": "A platform for containerization.",
+      "id": "docker"
+    },
+    {
+      "name": "Kubernetes (GKE/EKS/AKS)",
+      "type": "Technology",
+      "description": "An orchestration system for automating application deployment, scaling, and management.",
+      "id": "kubernetes (gke/eks/aks)"
+    },
+    {
+      "name": "Vault / Secrets Manager",
+      "type": "Service",
+      "description": "A tool for managing secrets.",
+      "id": "vault / secrets manager"
+    },
+    {
+      "name": "CI/CD via GitHub Actions / GitLab CI",
+      "type": "Service",
+      "description": "Continuous Integration and Continuous Deployment services.",
+      "id": "ci/cd via github actions / gitlab ci"
+    },
+    {
+      "name": "Prometheus",
+      "type": "Technology",
+      "description": "An open-source monitoring and alerting toolkit.",
+      "id": "prometheus"
+    },
+    {
+      "name": "Grafana",
+      "type": "Technology",
+      "description": "An open-source platform for monitoring and observability.",
+      "id": "grafana"
+    },
+    {
+      "name": "OpenTelemetry",
+      "type": "Technology",
+      "description": "A set of APIs, libraries, agents, and instrumentation to provide observability.",
+      "id": "opentelemetry"
+    },
+    {
+      "name": "API Gateway / Backend for Frontend (BFF)",
+      "type": "Concept",
+      "description": "A single HTTP entrypoint for clients that handles various backend tasks.",
+      "id": "api gateway / backend for frontend (bff)"
+    },
+    {
+      "name": "Auth & Identity Service",
+      "type": "Service",
+      "description": "Service for user registration, login, and session management.",
+      "id": "auth & identity service"
+    },
+    {
+      "name": "JWT",
+      "type": "Technology",
+      "description": "A compact, URL-safe means of representing claims to be transferred between two parties.",
+      "id": "jwt"
+    },
+    {
+      "name": "User Profile Service",
+      "type": "Service",
+      "description": "Manages user display name, avatar, and profile settings.",
+      "id": "user profile service"
+    },
+    {
+      "name": "Catalog Service",
+      "type": "Service",
+      "description": "Stores metadata for music tracks, albums, artists, genres, and moods.",
+      "id": "catalog service"
+    },
+    {
+      "name": "users",
+      "type": "Database",
+      "description": "Core table for user information.",
+      "id": "users"
+    },
+    {
+      "name": "credentials",
+      "type": "Database",
+      "description": "Core table for user credentials.",
+      "id": "credentials"
+    },
+    {
+      "name": "sessions",
+      "type": "Database",
+      "description": "Core table for user sessions.",
+      "id": "sessions"
+    },
+    {
+      "name": "devices",
+      "type": "Database",
+      "description": "Core table for device information.",
+      "id": "devices"
+    },
+    {
+      "name": "user_profile",
+      "type": "Database",
+      "description": "Core table for user profile information.",
+      "id": "user_profile"
+    },
+    {
+      "name": "user_settings",
+      "type": "Database",
+      "description": "Core table for user settings.",
+      "id": "user_settings"
+    },
+    {
+      "name": "artists",
+      "type": "Database",
+      "description": "Core table for artist information.",
+      "id": "artists"
+    },
+    {
+      "name": "albums",
+      "type": "Database",
+      "description": "Core table for album information.",
+      "id": "albums"
+    },
+    {
+      "name": "tracks",
+      "type": "Database",
+      "description": "Core table for track information.",
+      "id": "tracks"
+    },
+    {
+      "name": "genres",
+      "type": "Database",
+      "description": "Core table for genre information.",
+      "id": "genres"
+    },
+    {
+      "name": "moods",
+      "type": "Database",
+      "description": "Core table for mood information.",
+      "id": "moods"
+    },
+    {
+      "name": "track_audio_files",
+      "type": "Database",
+      "description": "Core table for audio files associated with tracks.",
+      "id": "track_audio_files"
+    },
+    {
+      "name": "Search & Discovery Index Service",
+      "type": "Service",
+      "description": "Indexes tracks, albums, artists, playlists, and podcasts.",
+      "id": "search & discovery index service"
+    },
+    {
+      "name": "Library & Playlist Service",
+      "type": "Service",
+      "description": "Implements 'Your Library' and manages playlists.",
+      "id": "library & playlist service"
+    },
+    {
+      "name": "Playback & Session Service",
+      "type": "Service",
+      "description": "Stores playback state and manages playback sessions.",
+      "id": "playback & session service"
+    },
+    {
+      "name": "Streaming / Media Delivery Service",
+      "type": "Service",
+      "description": "Generates secure signed URLs to audio HLS manifests/segments.",
+      "id": "streaming / media delivery service"
+    },
+    {
+      "name": "Recommendation & Personalization Service",
+      "type": "Service",
+      "description": "Provides recommendations and personalization features.",
+      "id": "recommendation & personalization service"
+    },
+    {
+      "name": "Social & Activity Service",
+      "type": "Service",
+      "description": "Facilitates user interactions and activity sharing.",
+      "id": "social & activity service"
+    },
+    {
+      "name": "Subscription & Billing Service",
+      "type": "Service",
+      "description": "Manages user subscription plans and payment processing.",
+      "id": "subscription & billing service"
+    },
+    {
+      "name": "Ads Service (Free Tier)",
+      "type": "Service",
+      "description": "Handles ad campaigns and tracks advertising metrics.",
+      "id": "ads service (free tier)"
+    },
+    {
+      "name": "Content Ingestion & Creator Portal Service",
+      "type": "Service",
+      "description": "Service for artists and labels to manage their music tracks and metadata.",
+      "id": "content ingestion & creator portal service"
+    },
+    {
+      "name": "Media Processor Service",
+      "type": "Service",
+      "description": "Service for transcoding audio uploads and generating various audio formats.",
+      "id": "media processor service"
+    },
+    {
+      "name": "Analytics & Events Service",
+      "type": "Service",
+      "description": "Service for ingesting and storing user and system events.",
+      "id": "analytics & events service"
+    },
+    {
+      "name": "FFmpeg",
+      "type": "Technology",
+      "description": "A tool for transcoding audio and video files.",
+      "id": "ffmpeg"
+    },
+    {
+      "name": "Recommendation Service",
+      "type": "Service",
+      "description": "Feeds Recommendation Service with listening data.",
+      "id": "recommendation service"
+    },
+    {
+      "name": "Notification Service",
+      "type": "Service",
+      "description": "Sends emails, push notifications, and in-app notifications.",
+      "id": "notification service"
+    },
+    {
+      "name": "Admin & Backoffice Service",
+      "type": "Service",
+      "description": "Admin panel for staff: user search, content management, moderation.",
+      "id": "admin & backoffice service"
+    },
+    {
+      "name": "Elasticsearch",
+      "type": "Technology",
+      "description": "A search engine based on the Lucene library.",
+      "id": "elasticsearch"
+    },
+    {
+      "name": "OpenSearch",
+      "type": "Technology",
+      "description": "An open-source search and analytics suite.",
+      "id": "opensearch"
+    },
+    {
+      "name": "Object Storage",
+      "type": "Service",
+      "description": "A storage architecture that manages data as objects.",
+      "id": "object storage"
+    },
+    {
+      "name": "S3-like",
+      "type": "Concept",
+      "description": "Refers to storage services similar to Amazon S3.",
+      "id": "s3-like"
+    },
+    {
+      "name": "CDN",
+      "type": "Service",
+      "description": "Content Delivery Network for distributing content.",
+      "id": "cdn"
+    },
+    {
+      "name": "HLS",
+      "type": "Technology",
+      "description": "HTTP Live Streaming, a media streaming protocol.",
+      "id": "hls"
+    },
+    {
+      "name": "/",
+      "type": "Page",
+      "description": "Landing/marketing page.",
+      "id": "/"
+    },
+    {
+      "name": "/login",
+      "type": "Page",
+      "description": "Authentication page.",
+      "id": "/login"
+    },
+    {
+      "name": "/signup",
+      "type": "Page",
+      "description": "User registration page.",
+      "id": "/signup"
+    },
+    {
+      "name": "/artist/:id",
+      "type": "Page",
+      "description": "Public artist view.",
+      "id": "/artist/:id"
+    },
+    {
+      "name": "/album/:id",
+      "type": "Page",
+      "description": "Public album view or preview.",
+      "id": "/album/:id"
+    },
+    {
+      "name": "/home",
+      "type": "Page",
+      "description": "Personalized home feed for authenticated users.",
+      "id": "/home"
+    },
+    {
+      "name": "/search",
+      "type": "Page",
+      "description": "Full search UI for authenticated users.",
+      "id": "/search"
+    },
+    {
+      "name": "/collection/tracks",
+      "type": "Page",
+      "description": "Liked songs.",
+      "id": "/collection/tracks"
+    },
+    {
+      "name": "/collection/playlists",
+      "type": "Page",
+      "description": "User playlists.",
+      "id": "/collection/playlists"
+    },
+    {
+      "name": "/collection/albums",
+      "type": "Page",
+      "description": "Saved albums.",
+      "id": "/collection/albums"
+    },
+    {
+      "name": "/collection/artists",
+      "type": "Page",
+      "description": "Followed artists.",
+      "id": "/collection/artists"
+    },
+    {
+      "name": "/playlist/:id",
+      "type": "Page",
+      "description": "Playlist details & play.",
+      "id": "/playlist/:id"
+    },
+    {
+      "name": "/queue",
+      "type": "Page",
+      "description": "Queue detail (could also be a modal).",
+      "id": "/queue"
+    },
+    {
+      "name": "/settings/account",
+      "type": "Page",
+      "description": "Account info.",
+      "id": "/settings/account"
+    },
+    {
+      "name": "/settings/subscription",
+      "type": "Page",
+      "description": "Plan & billing.",
+      "id": "/settings/subscription"
+    },
+    {
+      "name": "/settings/privacy",
+      "type": "Page",
+      "description": "Content & privacy preferences.",
+      "id": "/settings/privacy"
+    },
+    {
+      "name": "/creator/dashboard",
+      "type": "Page",
+      "description": "Creator dashboard.",
+      "id": "/creator/dashboard"
+    },
+    {
+      "name": "/creator/uploads",
+      "type": "Page",
+      "description": "Creator uploads.",
+      "id": "/creator/uploads"
+    },
+    {
+      "name": "/creator/analytics",
+      "type": "Page",
+      "description": "Creator analytics.",
+      "id": "/creator/analytics"
+    },
+    {
+      "name": "/admin",
+      "type": "Page",
+      "description": "Admin dashboard.",
+      "id": "/admin"
+    },
+    {
+      "name": "/admin/users",
+      "type": "Page",
+      "description": "Admin users management.",
+      "id": "/admin/users"
+    },
+    {
+      "name": "/admin/content",
+      "type": "Page",
+      "description": "Admin content management.",
+      "id": "/admin/content"
+    },
+    {
+      "name": "/admin/flags",
+      "type": "Page",
+      "description": "Admin flags management.",
+      "id": "/admin/flags"
+    },
+    {
+      "name": "Persistent bottom player bar",
+      "type": "Feature",
+      "description": "Global UI component for persistent playback.",
+      "id": "persistent bottom player bar"
+    },
+    {
+      "name": "Left navigation",
+      "type": "Feature",
+      "description": "Global UI component for navigation (Home, Search, Your Library).",
+      "id": "left navigation"
+    },
+    {
+      "name": "Top bar",
+      "type": "Feature",
+      "description": "Global UI component with search and profile dropdown.",
+      "id": "top bar"
+    },
+    {
+      "name": "Queue / Now Playing side panel",
+      "type": "Feature",
+      "description": "Global UI component for displaying queue and now playing.",
+      "id": "queue / now playing side panel"
+    },
+    {
+      "name": "Email/password auth & social login",
+      "type": "Feature",
+      "description": "User authentication feature.",
+      "id": "email/password auth & social login"
+    },
+    {
+      "name": "Email verification & password reset",
+      "type": "Feature",
+      "description": "User account security feature.",
+      "id": "email verification & password reset"
+    },
+    {
+      "name": "Profile editing",
+      "type": "Feature",
+      "description": "Feature for editing user profile (name, avatar).",
+      "id": "profile editing"
+    },
+    {
+      "name": "Device management and sign-out from all devices",
+      "type": "Feature",
+      "description": "Feature for managing devices and signing out.",
+      "id": "device management and sign-out from all devices"
+    },
+    {
+      "name": "Device management",
+      "type": "Feature",
+      "description": "Management of devices and sign-out functionality.",
+      "id": "device management"
+    },
+    {
+      "name": "Playback & Player",
+      "type": "Concept",
+      "description": "Features related to audio playback and control.",
+      "id": "playback & player"
+    },
+    {
+      "name": "Play, pause, next, previous, seek",
+      "type": "Feature",
+      "description": "Basic playback controls for audio.",
+      "id": "play, pause, next, previous, seek"
+    },
+    {
+      "name": "Shuffle & repeat",
+      "type": "Feature",
+      "description": "Playback options for shuffling and repeating tracks.",
+      "id": "shuffle & repeat"
+    },
+    {
+      "name": "Volume & mute",
+      "type": "Feature",
+      "description": "Controls for adjusting volume and muting audio.",
+      "id": "volume & mute"
+    },
+    {
+      "name": "Playback queue",
+      "type": "Feature",
+      "description": "Queue management for audio playback.",
+      "id": "playback queue"
+    },
+    {
+      "name": "Cross-device control and sync",
+      "type": "Feature",
+      "description": "Control and synchronization of playback across devices.",
+      "id": "cross-device control and sync"
+    },
+    {
+      "name": "Optional crossfade/gapless playback",
+      "type": "Feature",
+      "description": "Playback feature for seamless transitions between tracks.",
+      "id": "optional crossfade/gapless playback"
+    },
+    {
+      "name": "Auto-play recommendations",
+      "type": "Feature",
+      "description": "Recommendations that play automatically when a playlist ends.",
+      "id": "auto-play recommendations"
+    },
+    {
+      "name": "Library & Playlists",
+      "type": "Concept",
+      "description": "Features related to music libraries and playlists.",
+      "id": "library & playlists"
+    },
+    {
+      "name": "Liked songs collection",
+      "type": "Feature",
+      "description": "Collection of songs that users have liked.",
+      "id": "liked songs collection"
+    },
+    {
+      "name": "Create/edit/delete playlists",
+      "type": "Feature",
+      "description": "Functionality for managing playlists.",
+      "id": "create/edit/delete playlists"
+    },
+    {
+      "name": "Public/private/unlisted playlists",
+      "type": "Feature",
+      "description": "Options for playlist visibility.",
+      "id": "public/private/unlisted playlists"
+    },
+    {
+      "name": "Collaborative playlists",
+      "type": "Feature",
+      "description": "Playlists that can be edited by multiple users.",
+      "id": "collaborative playlists"
+    },
+    {
+      "name": "Save albums to library",
+      "type": "Feature",
+      "description": "Functionality to save albums in the user's library.",
+      "id": "save albums to library"
+    },
+    {
+      "name": "Follow artists and playlists",
+      "type": "Feature",
+      "description": "Ability to follow artists and playlists.",
+      "id": "follow artists and playlists"
+    },
+    {
+      "name": "Sorting and filtering in library",
+      "type": "Feature",
+      "description": "Options for organizing and filtering library content.",
+      "id": "sorting and filtering in library"
+    },
+    {
+      "name": "Catalog & Browsing",
+      "type": "Concept",
+      "description": "Features for browsing and exploring music catalogs.",
+      "id": "catalog & browsing"
+    },
+    {
+      "name": "Detailed artist pages",
+      "type": "Feature",
+      "description": "Pages with detailed information about artists.",
+      "id": "detailed artist pages"
+    },
+    {
+      "name": "Album pages",
+      "type": "Feature",
+      "description": "Pages that display album details.",
+      "id": "album pages"
+    },
+    {
+      "name": "Browse by genres & moods",
+      "type": "Feature",
+      "description": "Browsing options based on music genres and moods.",
+      "id": "browse by genres & moods"
+    },
+    {
+      "name": "New releases and charts",
+      "type": "Feature",
+      "description": "Access to new music releases and charts.",
+      "id": "new releases and charts"
+    },
+    {
+      "name": "Podcasts & episodes",
+      "type": "Feature",
+      "description": "Access to podcasts and their episodes.",
+      "id": "podcasts & episodes"
+    },
+    {
+      "name": "Search",
+      "type": "Concept",
+      "description": "Functionality for searching music content.",
+      "id": "search"
+    },
+    {
+      "name": "Unified search",
+      "type": "Feature",
+      "description": "Search feature that encompasses various content types.",
+      "id": "unified search"
+    },
+    {
+      "name": "Autocomplete suggestions",
+      "type": "Feature",
+      "description": "Feature that provides suggestions while typing.",
+      "id": "autocomplete suggestions"
+    },
+    {
+      "name": "Search history",
+      "type": "Feature",
+      "description": "Feature that allows users to view and manage their past searches.",
+      "id": "search history"
+    },
+    {
+      "name": "Filter by content type",
+      "type": "Feature",
+      "description": "Feature that enables filtering search results based on content type.",
+      "id": "filter by content type"
+    },
+    {
+      "name": "Personalized home feed",
+      "type": "Feature",
+      "description": "A customized feed that displays content based on user preferences.",
+      "id": "personalized home feed"
+    },
+    {
+      "name": "Because you listened to X rows",
+      "type": "Feature",
+      "description": "Feature that suggests content based on previous listening habits.",
+      "id": "because you listened to x rows"
+    },
+    {
+      "name": "Song Radio",
+      "type": "Feature",
+      "description": "A feature that creates a radio station based on a specific song.",
+      "id": "song radio"
+    },
+    {
+      "name": "Artist Radio",
+      "type": "Feature",
+      "description": "A feature that creates a radio station based on a specific artist.",
+      "id": "artist radio"
+    },
+    {
+      "name": "Auto-generated Daily Mix-style playlists",
+      "type": "Feature",
+      "description": "Playlists that are automatically created for users based on their listening habits.",
+      "id": "auto-generated daily mix-style playlists"
+    },
+    {
+      "name": "Weekly discovery playlist",
+      "type": "Feature",
+      "description": "A playlist that introduces users to new music on a weekly basis.",
+      "id": "weekly discovery playlist"
+    },
+    {
+      "name": "Follow users",
+      "type": "Feature",
+      "description": "Feature that allows users to follow other users.",
+      "id": "follow users"
+    },
+    {
+      "name": "Friend activity feed",
+      "type": "Feature",
+      "description": "A feed that displays the activity of friends.",
+      "id": "friend activity feed"
+    },
+    {
+      "name": "Share links for tracks, albums, artists, and playlists",
+      "type": "Feature",
+      "description": "Feature that allows users to share links to various content.",
+      "id": "share links for tracks, albums, artists, and playlists"
+    },
+    {
+      "name": "Optional embeddable mini-player",
+      "type": "Feature",
+      "description": "A mini-player that can be embedded for shared content.",
+      "id": "optional embeddable mini-player"
+    },
+    {
+      "name": "Free tier",
+      "type": "Service",
+      "description": "A subscription tier that is ad-supported and has lower bitrate.",
+      "id": "free tier"
+    },
+    {
+      "name": "Premium tier",
+      "type": "Service",
+      "description": "A subscription tier that is ad-free with high bitrate and offline access.",
+      "id": "premium tier"
+    },
+    {
+      "name": "Payment integration",
+      "type": "Feature",
+      "description": "Integration with payment services like Stripe and Razorpay.",
+      "id": "payment integration"
+    },
+    {
+      "name": "Plan change flows",
+      "type": "Feature",
+      "description": "Processes for changing subscription plans.",
+      "id": "plan change flows"
+    },
+    {
+      "name": "Cancellations",
+      "type": "Feature",
+      "description": "Feature that allows users to cancel their subscriptions.",
+      "id": "cancellations"
+    },
+    {
+      "name": "Proration behavior",
+      "type": "Feature",
+      "description": "Behavior related to adjusting charges when changing plans.",
+      "id": "proration behavior"
+    },
+    {
+      "name": "Billing history",
+      "type": "Feature",
+      "description": "Feature that allows users to view their billing history.",
+      "id": "billing history"
+    },
+    {
+      "name": "Invoices",
+      "type": "Feature",
+      "description": "Documents that detail charges for subscriptions.",
+      "id": "invoices"
+    },
+    {
+      "name": "Audio ad slots",
+      "type": "Feature",
+      "description": "Slots for audio advertisements between tracks.",
+      "id": "audio ad slots"
+    },
+    {
+      "name": "Targeting rules",
+      "type": "Feature",
+      "description": "Rules for targeting ads based on various criteria.",
+      "id": "targeting rules"
+    },
+    {
+      "name": "Frequency capping",
+      "type": "Feature",
+      "description": "Limiting the number of times an ad is shown to a user.",
+      "id": "frequency capping"
+    },
+    {
+      "name": "Campaign analytics",
+      "type": "Feature",
+      "description": "Analytics related to ad campaigns, including impressions and clicks.",
+      "id": "campaign analytics"
+    },
+    {
+      "name": "Frequency capping and rotation",
+      "type": "Feature",
+      "description": "A feature for managing ad frequency and rotation.",
+      "id": "frequency capping and rotation"
+    },
+    {
+      "name": "Creator / Label Portal",
+      "type": "Page",
+      "description": "Portal for artist and label onboarding and management.",
+      "id": "creator / label portal"
+    },
+    {
+      "name": "Artist/label onboarding and verification",
+      "type": "Feature",
+      "description": "Process for onboarding and verifying artists and labels.",
+      "id": "artist/label onboarding and verification"
+    },
+    {
+      "name": "Track and album upload flows",
+      "type": "Feature",
+      "description": "Processes for uploading tracks and albums.",
+      "id": "track and album upload flows"
+    },
+    {
+      "name": "Metadata management",
+      "type": "Feature",
+      "description": "Management of metadata including ISRC, lyrics, and credits.",
+      "id": "metadata management"
+    },
+    {
+      "name": "Bulk uploads for labels",
+      "type": "Feature",
+      "description": "Feature allowing bulk uploads for music labels.",
+      "id": "bulk uploads for labels"
+    },
+    {
+      "name": "Analytics dashboard",
+      "type": "Feature",
+      "description": "Dashboard displaying analytics such as streams and listeners.",
+      "id": "analytics dashboard"
+    },
+    {
+      "name": "Admin / Moderation",
+      "type": "Page",
+      "description": "Admin tools for user and content moderation.",
+      "id": "admin / moderation"
+    },
+    {
+      "name": "Search / inspect users and content",
+      "type": "Feature",
+      "description": "Feature for searching and inspecting users and content.",
+      "id": "search / inspect users and content"
+    },
+    {
+      "name": "Ban/suspend accounts",
+      "type": "Feature",
+      "description": "Feature for banning or suspending user accounts.",
+      "id": "ban/suspend accounts"
+    },
+    {
+      "name": "Takedown and restore content",
+      "type": "Feature",
+      "description": "Feature for taking down and restoring content.",
+      "id": "takedown and restore content"
+    },
+    {
+      "name": "Abuse reports queue and resolution tools",
+      "type": "Feature",
+      "description": "Tools for managing abuse reports and resolutions.",
+      "id": "abuse reports queue and resolution tools"
+    },
+    {
+      "name": "Feature flags and A/B tests configuration",
+      "type": "Feature",
+      "description": "Configuration for feature flags and A/B testing.",
+      "id": "feature flags and a/b tests configuration"
+    },
+    {
+      "name": "System status and error monitoring dashboards",
+      "type": "Feature",
+      "description": "Dashboards for monitoring system status and errors.",
+      "id": "system status and error monitoring dashboards"
+    },
+    {
+      "name": "Analytics & Reporting",
+      "type": "Page",
+      "description": "Section for analytics and reporting features.",
+      "id": "analytics & reporting"
+    },
+    {
+      "name": "Event tracking",
+      "type": "Feature",
+      "description": "Tracking of various user events such as plays and likes.",
+      "id": "event tracking"
+    },
+    {
+      "name": "DAU/MAU, retention cohorts, time spent listening",
+      "type": "Feature",
+      "description": "Metrics for daily and monthly active users and retention.",
+      "id": "dau/mau, retention cohorts, time spent listening"
+    },
+    {
+      "name": "Track- and playlist-level performance analytics",
+      "type": "Feature",
+      "description": "Analytics focused on track and playlist performance.",
+      "id": "track- and playlist-level performance analytics"
+    },
+    {
+      "name": "Creator- and label-facing analytics",
+      "type": "Feature",
+      "description": "Analytics tools for creators and labels.",
+      "id": "creator- and label-facing analytics"
+    },
+    {
+      "name": "Internal dashboards for product and ops teams",
+      "type": "Feature",
+      "description": "Dashboards for internal product and operations teams.",
+      "id": "internal dashboards for product and ops teams"
+    },
+    {
+      "name": "Security & Compliance",
+      "type": "Page",
+      "description": "Section focused on security and compliance measures.",
+      "id": "security & compliance"
+    },
+    {
+      "name": "HTTPS everywhere, secure cookies, HSTS",
+      "type": "Feature",
+      "description": "Security measures including HTTPS and secure cookies.",
+      "id": "https everywhere, secure cookies, hsts"
+    },
+    {
+      "name": "Input validation and rate limiting at the gateway",
+      "type": "Feature",
+      "description": "Security measures for input validation and rate limiting.",
+      "id": "input validation and rate limiting at the gateway"
+    },
+    {
+      "name": "HTTPS everywhere",
+      "type": "Feature",
+      "description": "A feature that ensures secure communication over the internet.",
+      "id": "https everywhere"
+    },
+    {
+      "name": "secure cookies",
+      "type": "Feature",
+      "description": "Cookies that are transmitted over secure channels to prevent interception.",
+      "id": "secure cookies"
+    },
+    {
+      "name": "HSTS",
+      "type": "Feature",
+      "description": "HTTP Strict Transport Security, a web security policy mechanism.",
+      "id": "hsts"
+    },
+    {
+      "name": "Input validation",
+      "type": "Concept",
+      "description": "The process of ensuring that user input is correct and secure.",
+      "id": "input validation"
+    },
+    {
+      "name": "rate limiting",
+      "type": "Feature",
+      "description": "A technique to control the amount of incoming requests to a server.",
+      "id": "rate limiting"
+    },
+    {
+      "name": "RBAC",
+      "type": "Concept",
+      "description": "Role-Based Access Control, a method for restricting system access.",
+      "id": "rbac"
+    },
+    {
+      "name": "GDPR-style data export",
+      "type": "Feature",
+      "description": "A feature that allows users to export their data in compliance with GDPR.",
+      "id": "gdpr-style data export"
+    },
+    {
+      "name": "account deletion",
+      "type": "Feature",
+      "description": "The process of permanently removing a user's account and data.",
+      "id": "account deletion"
+    },
+    {
+      "name": "Audit logging",
+      "type": "Feature",
+      "description": "The practice of recording actions taken on sensitive data for security purposes.",
+      "id": "audit logging"
+    },
+    {
+      "name": "Spotify",
+      "type": "Service",
+      "description": "A music streaming service.",
+      "id": "spotify"
+    },
+    {
+      "name": "web application",
+      "type": "Concept",
+      "description": "An application accessed via a web browser.",
+      "id": "web application"
+    },
+    {
+      "name": "architecture",
+      "type": "Concept",
+      "description": "The structured framework used to build the application.",
+      "id": "architecture"
+    },
+    {
+      "name": "core services",
+      "type": "Feature",
+      "description": "Essential services that support the application's functionality.",
+      "id": "core services"
+    },
+    {
+      "name": "data layout",
+      "type": "Concept",
+      "description": "The organization of data within the application.",
+      "id": "data layout"
+    },
+    {
+      "name": "frontend structure",
+      "type": "Concept",
+      "description": "The design and layout of the user interface.",
+      "id": "frontend structure"
+    },
+    {
+      "name": "feature checklist",
+      "type": "Feature",
+      "description": "A list of features required for the application.",
+      "id": "feature checklist"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "Next.js (React + TypeScript) for SSR/SSG and SPA behavior.",
+      "source": "next.js",
+      "target": "typescript",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Frontend Structure (Next.js)",
+      "source": "next.js",
+      "target": "/",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Tailwind CSS with a component library (e.g. Headless UI/Radix UI style).",
+      "source": "tailwind css",
+      "target": "headless ui",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Tailwind CSS with a component library (e.g. Headless UI/Radix UI style).",
+      "source": "tailwind css",
+      "target": "radix ui",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "Zustand/Recoil/Jotai for global player state.",
+      "source": "zustand",
+      "target": "recoil",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "Zustand/Recoil/Jotai for global player state.",
+      "source": "zustand",
+      "target": "jotai",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "Zustand/Recoil/Jotai for global player state.",
+      "source": "recoil",
+      "target": "jotai",
+      "key": 0
+    },
+    {
+      "relation": "CACHES_IN",
+      "evidence": "HLS.js + HTML5 Audio / Web Audio API for playback & visualizations.",
+      "source": "hls.js",
+      "target": "html5 audio",
+      "key": 0
+    },
+    {
+      "relation": "CACHES_IN",
+      "evidence": "HLS.js + HTML5 Audio / Web Audio API for playback & visualizations.",
+      "source": "hls.js",
+      "target": "web audio api",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "OAuth2 / OIDC-based auth integration with backend.",
+      "source": "oauth2",
+      "target": "oidc",
+      "key": 0
+    },
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "Node.js + TypeScript.",
+      "source": "node.js",
+      "target": "typescript",
+      "key": 0
+    },
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "NestJS for modular architecture, DI, microservices support.",
+      "source": "nestjs",
+      "target": "node.js",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "REST for external APIs, gRPC or message bus (Kafka/NATS/RabbitMQ) for internal communication.",
+      "source": "rest",
+      "target": "grpc",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "gRPC or message bus (Kafka/NATS/RabbitMQ) for internal communication.",
+      "source": "kafka",
+      "target": "nats",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "gRPC or message bus (Kafka/NATS/RabbitMQ) for internal communication.",
+      "source": "kafka",
+      "target": "rabbitmq",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "gRPC or message bus (Kafka/NATS/RabbitMQ) for internal communication.",
+      "source": "nats",
+      "target": "rabbitmq",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "API Gateway (Nginx/Envoy/Kong) for routing, rate-limiting, auth at edge.",
+      "source": "api gateway",
+      "target": "nginx",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "API Gateway (Nginx/Envoy/Kong) for routing, rate-limiting, auth at edge.",
+      "source": "api gateway",
+      "target": "envoy",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "API Gateway (Nginx/Envoy/Kong) for routing, rate-limiting, auth at edge.",
+      "source": "api gateway",
+      "target": "kong",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "PostgreSQL for relational data (users, playlists, subscriptions, etc.).",
+      "source": "postgresql",
+      "target": "redis",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Users, profiles, subscriptions, playlists, follows.",
+      "source": "postgresql",
+      "target": "admin & backoffice service",
+      "key": 0
+    },
+    {
+      "relation": "CACHES_IN",
+      "evidence": "Redis for caching and sessions.",
+      "source": "redis",
+      "target": "cdn (cloudfront/fastly/cloudflare)",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Authentication/session cache.",
+      "source": "redis",
+      "target": "admin & backoffice service",
+      "key": 0
+    },
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "Elasticsearch/OpenSearch for full-text search & autocomplete.",
+      "source": "elasticsearch/opensearch",
+      "target": "api gateway / backend for frontend (bff)",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Full-text index of tracks, artists, albums, playlists, and podcasts.",
+      "source": "elasticsearch/opensearch",
+      "target": "admin & backoffice service",
+      "key": 0
+    },
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "ClickHouse or similar data warehouse for analytics events.",
+      "source": "clickhouse",
+      "target": "api gateway / backend for frontend (bff)",
+      "key": 0
+    },
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "S3-compatible object storage for audio and images.",
+      "source": "s3-compatible object storage",
+      "target": "api gateway / backend for frontend (bff)",
+      "key": 0
+    },
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "CDN (CloudFront/Fastly/Cloudflare) for asset and audio delivery.",
+      "source": "cdn (cloudfront/fastly/cloudflare)",
+      "target": "api gateway / backend for frontend (bff)",
+      "key": 0
+    },
+    {
+      "relation": "DEPLOYED_ON",
+      "evidence": "Docker for containerization.",
+      "source": "docker",
+      "target": "kubernetes (gke/eks/aks)",
+      "key": 0
+    },
+    {
+      "relation": "INTEGRATES_WITH",
+      "evidence": "Kubernetes (GKE/EKS/AKS) for orchestration.",
+      "source": "kubernetes (gke/eks/aks)",
+      "target": "vault / secrets manager",
+      "key": 0
+    },
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "CI/CD via GitHub Actions / GitLab CI.",
+      "source": "ci/cd via github actions / gitlab ci",
+      "target": "api gateway / backend for frontend (bff)",
+      "key": 0
+    },
+    {
+      "relation": "INTEGRATES_WITH",
+      "evidence": "Observability via Prometheus + Grafana.",
+      "source": "prometheus",
+      "target": "grafana",
+      "key": 0
+    },
+    {
+      "relation": "INTEGRATES_WITH",
+      "evidence": "tracing with OpenTelemetry.",
+      "source": "opentelemetry",
+      "target": "grafana",
+      "key": 0
+    },
+    {
+      "relation": "HANDLES",
+      "evidence": "Handles auth, rate-limiting, schema validation.",
+      "source": "api gateway / backend for frontend (bff)",
+      "target": "auth & identity service",
+      "key": 0
+    },
+    {
+      "relation": "PROVIDES",
+      "evidence": "JWT/opaque token issuance and refresh tokens.",
+      "source": "auth & identity service",
+      "target": "jwt",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "JWT/opaque token issuance and refresh tokens.",
+      "source": "jwt",
+      "target": "sessions",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Core tables: user_profile, user_settings.",
+      "source": "user profile service",
+      "target": "user_profile",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Core tables: user_profile, user_settings.",
+      "source": "user profile service",
+      "target": "user_settings",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Core tables: artists, albums, tracks, genres, moods, track_audio_files.",
+      "source": "catalog service",
+      "target": "tracks",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Core tables: artists, albums, tracks, genres, moods, track_audio_files.",
+      "source": "catalog service",
+      "target": "albums",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Core tables: artists, albums, tracks, genres, moods, track_audio_files.",
+      "source": "catalog service",
+      "target": "artists",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Core tables: artists, albums, tracks, genres, moods, track_audio_files.",
+      "source": "catalog service",
+      "target": "genres",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Core tables: artists, albums, tracks, genres, moods, track_audio_files.",
+      "source": "catalog service",
+      "target": "moods",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Core tables: artists, albums, tracks, genres, moods, track_audio_files.",
+      "source": "catalog service",
+      "target": "track_audio_files",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Core tables: users, credentials, sessions, devices.",
+      "source": "users",
+      "target": "credentials",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Core tables: users, credentials, sessions, devices.",
+      "source": "users",
+      "target": "sessions",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Core tables: users, credentials, sessions, devices.",
+      "source": "users",
+      "target": "devices",
+      "key": 0
+    },
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "Device sessions management.",
+      "source": "sessions",
+      "target": "devices",
+      "key": 0
+    },
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "Powered by Elasticsearch/OpenSearch.",
+      "source": "search & discovery index service",
+      "target": "elasticsearch/opensearch",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Indexes tracks, albums, artists, playlists, podcasts.",
+      "source": "library & playlist service",
+      "target": "search & discovery index service",
+      "key": 0
+    },
+    {
+      "relation": "INTEGRATES_WITH",
+      "evidence": "Provides WebSocket channel for real-time player updates.",
+      "source": "playback & session service",
+      "target": "streaming / media delivery service",
+      "key": 0
+    },
+    {
+      "relation": "INTEGRATES_WITH",
+      "evidence": "Manages playback sessions and active devices.",
+      "source": "streaming / media delivery service",
+      "target": "playback & session service",
+      "key": 0
+    },
+    {
+      "relation": "INTEGRATES_WITH",
+      "evidence": "Personalized homepage and playlists (Discover Weekly-like, Daily Mix, Radios).",
+      "source": "recommendation & personalization service",
+      "target": "social & activity service",
+      "key": 0
+    },
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "Integrates with payment gateways (Stripe/Razorpay/etc.).",
+      "source": "subscription & billing service",
+      "target": "ads service (free tier)",
+      "key": 0
+    },
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "Background worker for transcoding uploads (FFmpeg).",
+      "source": "content ingestion & creator portal service",
+      "target": "ffmpeg",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Writes processed files to object storage and notifies Catalog/Streaming services.",
+      "source": "media processor service",
+      "target": "content ingestion & creator portal service",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Stores events in ClickHouse/warehouse.",
+      "source": "analytics & events service",
+      "target": "clickhouse",
+      "key": 0
+    },
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "Feeds Recommendation Service with listening data.",
+      "source": "recommendation service",
+      "target": "notification service",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "Elasticsearch/OpenSearch",
+      "source": "elasticsearch",
+      "target": "opensearch",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "Object Storage (S3-like) + CDN",
+      "source": "object storage",
+      "target": "s3-like",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "HLS segments and manifests per track and bitrate.",
+      "source": "cdn",
+      "target": "hls",
+      "key": 0
+    },
+    {
+      "relation": "PROVIDES",
+      "evidence": "Full search UI.",
+      "source": "/search",
+      "target": "/collection/tracks",
+      "key": 0
+    },
+    {
+      "relation": "PROVIDES",
+      "evidence": "Full search UI.",
+      "source": "/search",
+      "target": "/collection/playlists",
+      "key": 0
+    },
+    {
+      "relation": "PROVIDES",
+      "evidence": "Full search UI.",
+      "source": "/search",
+      "target": "/collection/albums",
+      "key": 0
+    },
+    {
+      "relation": "PROVIDES",
+      "evidence": "Full search UI.",
+      "source": "/search",
+      "target": "/collection/artists",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Liked songs.",
+      "source": "/collection/tracks",
+      "target": "/collection/tracks",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "User playlists.",
+      "source": "/collection/playlists",
+      "target": "/collection/playlists",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Saved albums.",
+      "source": "/collection/albums",
+      "target": "/collection/albums",
+      "key": 0
+    },
+    {
+      "relation": "STORES_DATA_IN",
+      "evidence": "Followed artists.",
+      "source": "/collection/artists",
+      "target": "/collection/artists",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Queue detail (could also be a modal).",
+      "source": "/playlist/:id",
+      "target": "/queue",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Account info.",
+      "source": "/settings/account",
+      "target": "/settings/account",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Email/password auth & social login.",
+      "source": "/settings/account",
+      "target": "email/password auth & social login",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Email verification & password reset.",
+      "source": "/settings/account",
+      "target": "email verification & password reset",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Profile editing (name, avatar).",
+      "source": "/settings/account",
+      "target": "profile editing",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Device management and sign-out from all devices.",
+      "source": "/settings/account",
+      "target": "device management and sign-out from all devices",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Plan & billing.",
+      "source": "/settings/subscription",
+      "target": "/settings/subscription",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Content & privacy preferences.",
+      "source": "/settings/privacy",
+      "target": "/settings/privacy",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Creator portal.",
+      "source": "/creator/dashboard",
+      "target": "/creator/dashboard",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Creator portal.",
+      "source": "/creator/uploads",
+      "target": "/creator/uploads",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Creator portal.",
+      "source": "/creator/analytics",
+      "target": "/creator/analytics",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Admin dashboard.",
+      "source": "/admin",
+      "target": "/admin",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Admin.",
+      "source": "/admin/users",
+      "target": "/admin/users",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Admin.",
+      "source": "/admin/content",
+      "target": "/admin/content",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Admin.",
+      "source": "/admin/flags",
+      "target": "/admin/flags",
+      "key": 0
+    },
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "Device management and sign-out from all devices.",
+      "source": "device management",
+      "target": "playback & player",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Play, pause, next, previous, seek.",
+      "source": "playback & player",
+      "target": "play, pause, next, previous, seek",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Shuffle & repeat (track, playlist/album).",
+      "source": "playback & player",
+      "target": "shuffle & repeat",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Volume & mute.",
+      "source": "playback & player",
+      "target": "volume & mute",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Playback queue with reorder & removal.",
+      "source": "playback & player",
+      "target": "playback queue",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Cross-device control and sync.",
+      "source": "playback & player",
+      "target": "cross-device control and sync",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Optional crossfade/gapless playback.",
+      "source": "playback & player",
+      "target": "optional crossfade/gapless playback",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Auto-play recommendations when playlist ends.",
+      "source": "playback & player",
+      "target": "auto-play recommendations",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Liked songs collection.",
+      "source": "library & playlists",
+      "target": "liked songs collection",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Create/edit/delete playlists.",
+      "source": "library & playlists",
+      "target": "create/edit/delete playlists",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Public/private/unlisted playlists.",
+      "source": "library & playlists",
+      "target": "public/private/unlisted playlists",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Collaborative playlists.",
+      "source": "library & playlists",
+      "target": "collaborative playlists",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Save albums to library.",
+      "source": "library & playlists",
+      "target": "save albums to library",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Follow artists and playlists.",
+      "source": "library & playlists",
+      "target": "follow artists and playlists",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Sorting and filtering in library.",
+      "source": "library & playlists",
+      "target": "sorting and filtering in library",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Collaborative playlists with multiple editors.",
+      "source": "collaborative playlists",
+      "target": "follow users",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Detailed artist pages (top songs, albums, related artists).",
+      "source": "catalog & browsing",
+      "target": "detailed artist pages",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Album pages (track list, total duration).",
+      "source": "catalog & browsing",
+      "target": "album pages",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Browse by genres & moods.",
+      "source": "catalog & browsing",
+      "target": "browse by genres & moods",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "New releases and charts.",
+      "source": "catalog & browsing",
+      "target": "new releases and charts",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Podcasts & episodes (optional if you want full parity).",
+      "source": "catalog & browsing",
+      "target": "podcasts & episodes",
+      "key": 0
+    },
+    {
+      "relation": "HAS_OPTION",
+      "evidence": "Unified search (tracks, artists, albums, playlists, podcasts).",
+      "source": "search",
+      "target": "unified search",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Autocomplete suggestions.",
+      "source": "search history",
+      "target": "autocomplete suggestions",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Search history and clear history.",
+      "source": "search history",
+      "target": "filter by content type",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Personalized home feed.",
+      "source": "personalized home feed",
+      "target": "because you listened to x rows",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "Song Radio and Artist Radio.",
+      "source": "song radio",
+      "target": "artist radio",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "Weekly discovery playlist (like Discover Weekly).",
+      "source": "weekly discovery playlist",
+      "target": "auto-generated daily mix-style playlists",
+      "key": 0
+    },
+    {
+      "relation": "INTEGRATES_WITH",
+      "evidence": "Optional embeddable mini-player for shared content.",
+      "source": "share links for tracks, albums, artists, and playlists",
+      "target": "optional embeddable mini-player",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "Free tier (ad-supported with lower bitrate).",
+      "source": "free tier",
+      "target": "premium tier",
+      "key": 0
+    },
+    {
+      "relation": "DEPENDS_ON",
+      "evidence": "Payment integration (Stripe/Razorpay/etc.).",
+      "source": "payment integration",
+      "target": "plan change flows",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Plan change flows, cancellations, proration behavior.",
+      "source": "plan change flows",
+      "target": "cancellations",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Billing history and invoices.",
+      "source": "billing history",
+      "target": "invoices",
+      "key": 0
+    },
+    {
+      "relation": "HANDLES",
+      "evidence": "Audio ad slots between tracks.",
+      "source": "audio ad slots",
+      "target": "targeting rules",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Frequency capping and rotation.",
+      "source": "frequency capping",
+      "target": "campaign analytics",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Frequency capping and rotation.",
+      "source": "frequency capping and rotation",
+      "target": "campaign analytics",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Creator / Label Portal",
+      "source": "creator / label portal",
+      "target": "artist/label onboarding and verification",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Metadata management (ISRC, lyrics, credits).",
+      "source": "track and album upload flows",
+      "target": "metadata management",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Bulk uploads for labels.",
+      "source": "bulk uploads for labels",
+      "target": "track and album upload flows",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Analytics dashboard (streams, listeners, countries, playlists).",
+      "source": "analytics dashboard",
+      "target": "campaign analytics",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Admin / Moderation",
+      "source": "admin / moderation",
+      "target": "search / inspect users and content",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Admin / Moderation",
+      "source": "admin / moderation",
+      "target": "ban/suspend accounts",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Admin / Moderation",
+      "source": "admin / moderation",
+      "target": "takedown and restore content",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Admin / Moderation",
+      "source": "admin / moderation",
+      "target": "abuse reports queue and resolution tools",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Admin / Moderation",
+      "source": "admin / moderation",
+      "target": "feature flags and a/b tests configuration",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Admin / Moderation",
+      "source": "admin / moderation",
+      "target": "system status and error monitoring dashboards",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Analytics & Reporting",
+      "source": "analytics & reporting",
+      "target": "event tracking",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Analytics & Reporting",
+      "source": "analytics & reporting",
+      "target": "dau/mau, retention cohorts, time spent listening",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Analytics & Reporting",
+      "source": "analytics & reporting",
+      "target": "track- and playlist-level performance analytics",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Analytics & Reporting",
+      "source": "analytics & reporting",
+      "target": "creator- and label-facing analytics",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Analytics & Reporting",
+      "source": "analytics & reporting",
+      "target": "internal dashboards for product and ops teams",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Security & Compliance",
+      "source": "security & compliance",
+      "target": "https everywhere, secure cookies, hsts",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "Security & Compliance.",
+      "source": "security & compliance",
+      "target": "input validation and rate limiting at the gateway",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "HTTPS everywhere, secure cookies, HSTS.",
+      "source": "https everywhere",
+      "target": "secure cookies",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "HTTPS everywhere, secure cookies, HSTS.",
+      "source": "https everywhere",
+      "target": "hsts",
+      "key": 0
+    },
+    {
+      "relation": "RELATED_TO",
+      "evidence": "Input validation and rate limiting at the gateway.",
+      "source": "input validation",
+      "target": "rate limiting",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "GDPR-style data export and account deletion.",
+      "source": "gdpr-style data export",
+      "target": "account deletion",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "architecture required to build a large-scale Spotify-like web application",
+      "source": "web application",
+      "target": "architecture",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "core services required to build a large-scale Spotify-like web application",
+      "source": "web application",
+      "target": "core services",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "data layout required to build a large-scale Spotify-like web application",
+      "source": "web application",
+      "target": "data layout",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "frontend structure required to build a large-scale Spotify-like web application",
+      "source": "web application",
+      "target": "frontend structure",
+      "key": 0
+    },
+    {
+      "relation": "PART_OF",
+      "evidence": "feature checklist required to build a large-scale Spotify-like web application",
+      "source": "web application",
+      "target": "feature checklist",
+      "key": 0
+    },
+    {
+      "relation": "ALTERNATIVE_TO",
+      "evidence": "large-scale Spotify-like web application",
+      "source": "web application",
+      "target": "spotify",
+      "key": 0
+    }
+  ]
+}

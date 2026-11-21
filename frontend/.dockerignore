@@ -1,0 +1,21 @@
+# Secrets - never bake into the image
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Python junk
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# VCS / editor / docker files
+.git
+.gitignore
+.vscode/
+.idea/
+Dockerfile
+.dockerignore
+*.md

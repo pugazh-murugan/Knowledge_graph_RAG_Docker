@@ -1,0 +1,25 @@
+name: knowledge-graph-rag
+
+services:
+  backend:
+    build: ./backend
+    container_name: kg-rag-backend
+    env_file: .env                      # OPENAI_API_KEY (never copied into the image)
+    ports:
+      - "${BACKEND_PORT:-8001}:8000"    # API docs: http://localhost:8001/docs
+    volumes:
+      - ./data:/app/data                # source documents
+      - ./graph_data:/app/graph_data    # saved graph (kg.json) survives restarts
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: kg-rag-frontend
+    environment:
+      BACKEND_URL: http://backend:8000  # service name on the compose network
+    ports:
+      - "${FRONTEND_PORT:-8502}:8501"   # UI: http://localhost:8502
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
