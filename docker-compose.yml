@@ -1,15 +1,28 @@
 name: knowledge-graph-rag
 
+x-logging: &default-logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "3"
+
 services:
   backend:
     build: ./backend
     container_name: kg-rag-backend
     env_file: .env                      # OPENAI_API_KEY (never copied into the image)
     ports:
-      - "${BACKEND_PORT:-8001}:8000"    # API docs: http://localhost:8001/docs
+      - "127.0.0.1:${BACKEND_PORT:-8001}:8000"   # API docs: http://localhost:8001/docs
     volumes:
       - ./data:/app/data                # source documents
       - ./graph_data:/app/graph_data    # saved graph (kg.json) survives restarts
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/docs')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    logging: *default-logging
     restart: unless-stopped
 
   frontend:
@@ -18,8 +31,15 @@ services:
     environment:
       BACKEND_URL: http://backend:8000  # service name on the compose network
     ports:
-      - "${FRONTEND_PORT:-8502}:8501"   # UI: http://localhost:8502
+      - "127.0.0.1:${FRONTEND_PORT:-8502}:8501"  # UI: http://localhost:8502
     depends_on:
       backend:
         condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8501/_stcore/health')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    logging: *default-logging
     restart: unless-stopped
