@@ -1,0 +1,17 @@
+services:
+  frontend:
+    networks:
+      - default
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=n8n_default"
+      - "traefik.http.routers.kg-rag.rule=Host(`kg.pugazh.sbs`)"
+      - "traefik.http.routers.kg-rag.entrypoints=websecure"
+      - "traefik.http.routers.kg-rag.tls.certresolver=mytlschallenge"
+      - "traefik.http.services.kg-rag.loadbalancer.server.port=8501"
+
+networks:
+  traefik:
+    external: true
+    name: n8n_default
